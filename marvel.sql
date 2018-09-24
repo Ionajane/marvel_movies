@@ -11,7 +11,9 @@ CREATE TABLE movies (
 CREATE TABLE people (
 	id SERIAL8 PRIMARY KEY,
 	name VARCHAR(255)
-);INSERT INTO people (name) VALUES ('Ana Martinez');
+);
+
+INSERT INTO people (name) VALUES ('Ana Martinez');
 INSERT INTO people (name) VALUES ('Andrew Carracher');
 INSERT INTO people (name) VALUES ('Caroline Graves');
 INSERT INTO people (name) VALUES ('Genna-Lee Walsh');
@@ -33,6 +35,7 @@ INSERT INTO people (name) VALUES ('Tavy Fraser');
 INSERT INTO people (name) VALUES ('Thomas Gracie');
 INSERT INTO people (name) VALUES ('Xavier Godard');
 INSERT INTO people (name) VALUES ('Kith Douglas');
+INSERT INTO people (name) VALUES ('John Harper');
 
 INSERT INTO movies (title, year, show_time) VALUES ('Iron Man', 2008, '15:35');
 INSERT INTO movies (title, year, show_time) VALUES ('The Incredible Hulk', 2008, '22:05');
@@ -52,3 +55,4 @@ INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '22:
 INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '22:00');
 INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 2017, '18:10');
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '19:35');
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infintiy War', 2018, '00:00');
